@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/commom.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/order-tiles.css" />
+    <link rel="stylesheet" href="./assets/css/loader.css" />
+    <link rel="stylesheet" href="./assets/css/slides.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <title>Imreke-KMS</title>
+  </head>
+  <body>
+      <div id="screen-overlay-transparent"></div>
+      <div
+        class="cn-app-nolic-panel-container"
+        id="cn-app-nolic-panel-container"
+      >
+        <div class="cn-app settings-panel-all-elems">
+          <div class="cn-app-nolic-panel-header-container">
+            <div class="cn-app-nolic-panel-header-label">WELCOME TO IMREKE MDS</div>
+          </div>
+          <div class="cn-app-nolic-panel-title-info-container">
+            <div class="cn-app-nolic-panel-title-label">
+              There is currently no license installed on this terminal!
+            </div>
+          </div>
+          <div class="cn-app-nolic-panel-api-login-support-panel-container">
+            <div class="cn-app-nolic-panel-api-login-container">
+              <div class="cn-login-api-key-title">Login to IMREKE POS</div>
+              <div class="cn-login-api-key-input-container">
+                <div class="cn-login-api-key-input-title">
+                  Please enter the API key to login into the POS
+                </div>
+                <div class="cn-login-api-key-input-area">
+                  <input type="text" id="email-login" placeholder="Email Address" value="imreke_dev-eqocv+LOC1@imreke.com.au"/></br></br>
+                  <input type="text" id="password-login" placeholder="Password" value="3YQ9eyCYVQ6KbjH" />
+
+                </div>
+              </div>
+              <div class="cn-login-api-key-footer-container">
+
+                <div
+                  class="cn-login-api-key-footer-login-btn"
+                  onclick="insertApiTodb();"
+                >
+                  Login
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cn-app-nolic-panel-close-btn-container"></div>
+        </div>
+      </div>
+
+    <div class="bg-container" id="bgContainer">
+      <div class="loader-container">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="internet-status">
+        <div class="internet-offline">No Internet</div>
+      </div>
+    </div>
+    <input type="hidden" disabled id="apikey" />
+    <input type="hidden" disabled id="partval" value="LOC1" />
+    <!-- <audio id="myAudio">
+      <source src="neworder.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio> -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

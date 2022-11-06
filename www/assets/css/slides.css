@@ -1,0 +1,27 @@
+.mySlides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.internet-status {
+  position: absolute;
+  display: none;
+}
+.internet-offline {
+  background-color: #0000001c;
+  color: #8d8d8dbf;
+  padding: 4px 10px;
+  border-radius: 0 0px 12px 0px;
+  line-height: 1.1;
+}

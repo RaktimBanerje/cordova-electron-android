@@ -1,0 +1,35 @@
+.ct-header-container {
+  height: 50px;
+  width: 100%;
+  background-color: #142c39;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+.ct-center-timedate-container {
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  font-size: 20px;
+}
+.ct-header-orderstatus-container {
+  display: flex;
+  color: #ffe7b8;
+  align-items: center;
+  gap: 10px;
+}
+.ct-header-order-number {
+  font-size: 27px;
+}
+.ct-header-order-number-status-container {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+.ct-header-order-running-svg-container {
+  display: flex;
+}

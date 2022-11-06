@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rakti\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add image-downloader
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\rakti\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\rakti\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rakti\AppData\Local\Microsoft\WindowsApps;;C:\Users\rakti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rakti\AppData\Roaming\npm;C:\Users\rakti\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\rakti\AppData\Local\Yarn\Cache\v6\npm-app-builder-bin-3.7.1-cb0825c5e12efc85b196ac3ed9c89f076c61040e-integrity\node_modules\app-builder-bin\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "io.cordova.hellocordova",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+      "start": "cordova run electron --nobuild"
+    },
+    "keywords": [
+      "ecosystem:cordova"
+    ],
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "bson": "^4.7.0",
+      "electron-dl": "^3.4.0",
+      "electron-store": "^8.1.0",
+      "electron-updater": "^4.3.5",
+      "express": "^4.17.2",
+      "ip": "^1.1.8",
+      "jquery": "^3.6.0",
+      "json-socket": "^0.3.0",
+      "messenger": "0.0.9",
+      "mysql": "^2.18.1",
+      "nedb": "^1.8.0",
+      "net": "^1.0.2",
+      "node": "^15.14.0",
+      "realm": "^10.16.0",
+      "request": "^2.88.2",
+      "socket.io": "^4.5.2"
+    },
+    "devDependencies": {
+      "cordova-android": "^10.1.2",
+      "cordova-electron": "^3.1.0",
+      "electron-builder": "^23.6.0"
+    },
+    "cordova": {
+      "platforms": [
+        "electron",
+        "android"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

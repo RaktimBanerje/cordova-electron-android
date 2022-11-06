@@ -1,0 +1,57 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cordova run electron --nobuild"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bson": "^4.7.0",
+    "electron-dl": "^3.4.0",
+    "electron-store": "^8.1.0",
+    "electron-updater": "^4.3.5",
+    "express": "^4.17.2",
+    "fs-extra": "^10.1.0",
+    "image-downloader": "^4.3.0",
+    "ip": "^1.1.8",
+    "jquery": "^3.6.0",
+    "json-socket": "^0.3.0",
+    "messenger": "0.0.9",
+    "mysql": "^2.18.1",
+    "nedb": "^1.8.0",
+    "net": "^1.0.2",
+    "node": "^15.14.0",
+    "realm": "^10.16.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "cordova-android": "^10.1.2",
+    "cordova-electron": "^3.1.0",
+    "cordova-plugin-device": "^2.1.0",
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.27.0"
+  },
+  "cordova": {
+    "platforms": [
+      "electron",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-device": {}
+    }
+  }
+}
